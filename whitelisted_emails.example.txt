@@ -1,0 +1,11 @@
+# Whitelisted email addresses for self-serve API key generation
+# Internal keys (full access): @medcrypt.com, @medcrypt.co
+# External keys (read-only): other whitelisted emails
+#
+# Copy this file to whitelisted_emails.txt and add real addresses:
+#     cp whitelisted_emails.example.txt whitelisted_emails.txt
+#
+# whitelisted_emails.txt is gitignored — never commit it.
+
+# External users
+partner@external-org.com

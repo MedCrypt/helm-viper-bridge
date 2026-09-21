@@ -1,0 +1,335 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-02-02T16:17:51Z",
+    "tools" : [
+      {
+        "vendor" : "Medcrypt",
+        "name" : "Helm",
+        "version" : "2.119.0-SNAPSHOT"
+      }
+    ],
+    "component" : {
+      "supplier" : {
+        "name" : "MedCrypt Software"
+      },
+      "name" : "Sample Product",
+      "version" : "1.0",
+      "type" : "application"
+    }
+  },
+  "components" : [
+    {
+      "supplier" : {
+        "name" : "STMicroelectronics"
+      },
+      "name" : "STM32WB0X Device Support",
+      "version" : "1.0.0",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "STMicroelectronics BSD-3-Clause",
+            "url" : "file:///resources/sample_firmware/Drivers/CMSIS/Device/ST/STM32WB0X/LICENSE.txt"
+          }
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "stm32wb0x-device"
+    },
+    {
+      "supplier" : {
+        "name" : "Sample Vendor"
+      },
+      "name" : "Eddystone UID Service",
+      "version" : "custom",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Project-Specific"
+          }
+        }
+      ],
+      "type" : "application",
+      "bom-ref" : "eddystone-service"
+    },
+    {
+      "supplier" : {
+        "name" : "bluetooth"
+      },
+      "name" : "bluetooth_core_specification",
+      "version" : "5.2",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Bluetooth SIG License"
+          }
+        }
+      ],
+      "cpe" : "cpe:2.3:a:bluetooth:bluetooth_core_specification:5.2",
+      "type" : "framework",
+      "bom-ref" : "bluetooth-core-spec"
+    },
+    {
+      "supplier" : {
+        "name" : "newlib_project"
+      },
+      "name" : "newlib",
+      "version" : "4.4.0",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Multiple (BSD, GPL, LGPL)"
+          }
+        }
+      ],
+      "cpe" : "cpe:2.3:a:redhat:newlib:4.4.0.20231231:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/newlib@4.4.0.20231231",
+      "type" : "library",
+      "bom-ref" : "newlib"
+    },
+    {
+      "supplier" : {
+        "name" : "Sample Vendor"
+      },
+      "name" : "AS7341 Sensor Driver",
+      "version" : "custom",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Project-Specific"
+          }
+        }
+      ],
+      "type" : "application",
+      "bom-ref" : "as7341-driver"
+    },
+    {
+      "supplier" : {
+        "name" : "Sample Vendor"
+      },
+      "name" : "Application Logic",
+      "version" : "custom",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Project-Specific"
+          }
+        }
+      ],
+      "type" : "application",
+      "bom-ref" : "application-logic"
+    },
+    {
+      "supplier" : {
+        "name" : "STMicroelectronics"
+      },
+      "name" : "STM32WB0x HAL Driver",
+      "version" : "1.4.0",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "STMicroelectronics BSD-3-Clause",
+            "url" : "file:///resources/sample_firmware/Drivers/STM32WB0x_HAL_Driver/LICENSE.txt"
+          }
+        }
+      ],
+      "purl" : "pkg:generic/stm32wb0x-hal@1.4.0",
+      "type" : "library",
+      "bom-ref" : "stm32wb0x-hal"
+    },
+    {
+      "supplier" : {
+        "name" : "arm"
+      },
+      "name" : "cmsis-rtos",
+      "version" : "5.6.0",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://spdx.org/licenses/Apache-2.0.html"
+          }
+        }
+      ],
+      "cpe" : "cpe:2.3:a:arm:cmsis:5.6.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:github/ARM-software/CMSIS_5@5.6.0",
+      "type" : "library",
+      "bom-ref" : "cmsis-core"
+    },
+    {
+      "supplier" : {
+        "name" : "STMicroelectronics"
+      },
+      "name" : "STM32 Utilities",
+      "version" : "1.4.0",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "STMicroelectronics BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:generic/stm32-utilities@1.4.0",
+      "type" : "library",
+      "bom-ref" : "stm32-utilities"
+    },
+    {
+      "supplier" : {
+        "name" : "gnu"
+      },
+      "name" : "gcc",
+      "version" : "13.2.1",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "GPL-3.0-or-later",
+            "url" : "https://spdx.org/licenses/GPL-3.0-or-later.html"
+          }
+        }
+      ],
+      "cpe" : "cpe:2.3:a:gnu:gcc:13.2.1:*:*:*:*:*:arm:*",
+      "purl" : "pkg:generic/gcc-arm-none-eabi@13.2.1",
+      "type" : "library",
+      "bom-ref" : "gcc-arm-none-eabi"
+    },
+    {
+      "supplier" : {
+        "name" : "STMicroelectronics"
+      },
+      "name" : "STM32 BLE Middleware",
+      "version" : "1.4.0",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "STMicroelectronics BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:generic/stm32-ble-middleware@1.4.0",
+      "type" : "library",
+      "bom-ref" : "stm32-ble-middleware"
+    },
+    {
+      "supplier" : {
+        "name" : "STMicroelectronics"
+      },
+      "name" : "BLE Common Modules",
+      "version" : "1.4.0",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "STMicroelectronics BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:generic/ble-common-modules@1.4.0",
+      "type" : "library",
+      "bom-ref" : "ble-common-modules"
+    },
+    {
+      "supplier" : {
+        "name" : "STMicroelectronics"
+      },
+      "name" : "STM32 BLE Cryptography Library",
+      "version" : "3.2.0",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "STMicroelectronics Proprietary"
+          }
+        }
+      ],
+      "purl" : "pkg:generic/stm32-cryptolib@3.2.0",
+      "type" : "library",
+      "bom-ref" : "stm32-cryptolib"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "sample-firmware",
+      "dependsOn" : [
+        "bluetooth-core-spec",
+        "cmsis-core",
+        "stm32wb0x-device",
+        "stm32wb0x-hal",
+        "stm32-ble-stack",
+        "stm32-ble-middleware",
+        "stm32-cryptolib",
+        "stm32-utilities",
+        "ble-common-modules",
+        "newlib",
+        "as7341-driver",
+        "eddystone-service",
+        "application-logic",
+        "gcc-arm-none-eabi"
+      ]
+    },
+    {
+      "ref" : "stm32wb0x-device",
+      "dependsOn" : [
+        "cmsis-core"
+      ]
+    },
+    {
+      "ref" : "stm32wb0x-hal",
+      "dependsOn" : [
+        "cmsis-core",
+        "stm32wb0x-device"
+      ]
+    },
+    {
+      "ref" : "stm32-ble-middleware",
+      "dependsOn" : [
+        "stm32-ble-stack"
+      ]
+    },
+    {
+      "ref" : "stm32-ble-stack",
+      "dependsOn" : [
+        "bluetooth-core-spec",
+        "stm32-cryptolib",
+        "stm32wb0x-hal"
+      ]
+    },
+    {
+      "ref" : "ble-common-modules",
+      "dependsOn" : [
+        "stm32wb0x-hal",
+        "stm32-utilities"
+      ]
+    },
+    {
+      "ref" : "as7341-driver",
+      "dependsOn" : [
+        "stm32wb0x-hal"
+      ]
+    },
+    {
+      "ref" : "eddystone-service",
+      "dependsOn" : [
+        "bluetooth-core-spec",
+        "stm32-ble-middleware",
+        "ble-common-modules"
+      ]
+    },
+    {
+      "ref" : "application-logic",
+      "dependsOn" : [
+        "stm32wb0x-hal",
+        "stm32-utilities",
+        "ble-common-modules",
+        "as7341-driver",
+        "eddystone-service",
+        "newlib"
+      ]
+    },
+    {
+      "ref" : "gcc-arm-none-eabi",
+      "dependsOn" : [
+        "newlib"
+      ]
+    }
+  ]
+}

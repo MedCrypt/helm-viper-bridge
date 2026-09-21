@@ -1,0 +1,50 @@
+# ============================================================
+# Secrets — never commit these
+# ============================================================
+config.py
+.env
+api_keys.txt
+external_api_keys.txt
+viper_app_key.txt
+
+# Contains user email addresses (PII) — see whitelisted_emails.example.txt
+whitelisted_emails.txt
+
+# Credential files (replaced by 1Password — see .env.example)
+mc_api_key.txt
+viper_api_key.txt
+
+# ============================================================
+# Python
+# ============================================================
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ============================================================
+# Logs and runtime files
+# ============================================================
+*.log
+server.log
+tunnel.log
+/tmp/fastapi_server.pid
+/tmp/cloudflared.pid
+
+# ============================================================
+# macOS
+# ============================================================
+.DS_Store
+
+# ============================================================
+# Old / archived code
+# ============================================================
+archive/
+
+# ============================================================
+# Local assistant / editor config
+# ============================================================
+CLAUDE.md
+.claude/

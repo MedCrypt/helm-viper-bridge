@@ -1,0 +1,302 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-02-10T15:32:30Z",
+    "tools" : [
+      {
+        "vendor" : "Medcrypt",
+        "name" : "Helm",
+        "version" : "2.119.0-SNAPSHOT"
+      }
+    ],
+    "component" : {
+      "supplier" : {
+        "name" : "MedCrypt Software"
+      },
+      "name" : "Sample Product",
+      "version" : "1.0",
+      "properties" : [
+        {
+          "name" : "medcrypt:exports:cdxVex:reportId",
+          "value" : "00000000-0000-0000-0000-000000000000:Test Workspace:Sample Product:1.0"
+        }
+      ],
+      "type" : "application"
+    }
+  },
+  "vulnerabilities" : [
+    {
+      "id" : "CVE-2020-26556",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-26556"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-26556"
+          },
+          "score" : 2.9,
+          "method" : "CVSSv2",
+          "vector" : "AV:A/AC:M/Au:N/C:P/I:N/A:N"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-26556"
+          },
+          "score" : 7.5,
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        },
+        {
+          "source" : {
+            "name" : "Medcrypt Helm",
+            "url" : "https://helm.medcrypt.co"
+          },
+          "score" : 8.1,
+          "method" : "other",
+          "vector" : "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:X/RL:X/RC:X/CR:M/IR:M/AR:M/MAV:N/MAC:X/MPR:X/MUI:X/MS:X/MC:X/MI:X/MA:X",
+          "justification" : "CUSTOM ITEM-BASED RESCORE"
+        }
+      ],
+      "created" : "2024-12-05T19:30:12Z",
+      "updated" : "2024-11-21T05:20:00Z",
+      "affects" : [
+        {
+          "ref" : "urn:cdx:0fd05fd7-8cc6-4e38-b276-adcf779b94d8/1#bluetooth-core-spec"
+        }
+      ]
+    },
+    {
+      "id" : "CVE-2022-25837",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2022-25837"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/vuln/detail/CVE-2022-25837"
+          },
+          "score" : 7.5,
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:N"
+        }
+      ],
+      "created" : "2025-09-02T22:54:44Z",
+      "updated" : "2025-04-22T21:15:00Z",
+      "affects" : [
+        {
+          "ref" : "urn:cdx:0fd05fd7-8cc6-4e38-b276-adcf779b94d8/1#bluetooth-core-spec"
+        }
+      ]
+    },
+    {
+      "id" : "CVE-2022-25836",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2022-25836"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/vuln/detail/CVE-2022-25836"
+          },
+          "score" : 7.5,
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:N"
+        }
+      ],
+      "created" : "2025-09-02T22:54:44Z",
+      "updated" : "2025-04-22T21:15:00Z",
+      "affects" : [
+        {
+          "ref" : "urn:cdx:0fd05fd7-8cc6-4e38-b276-adcf779b94d8/1#bluetooth-core-spec"
+        }
+      ]
+    },
+    {
+      "id" : "CVE-2023-24023",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2023-24023"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/vuln/detail/CVE-2023-24023"
+          },
+          "score" : 6.8,
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "created" : "2025-09-03T00:23:17Z",
+      "updated" : "2024-11-21T07:47:00Z",
+      "affects" : [
+        {
+          "ref" : "urn:cdx:0fd05fd7-8cc6-4e38-b276-adcf779b94d8/1#bluetooth-core-spec"
+        }
+      ]
+    },
+    {
+      "id" : "CVE-2020-26555",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-26555"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-26555"
+          },
+          "score" : 4.8,
+          "method" : "CVSSv2",
+          "vector" : "AV:A/AC:L/Au:N/C:P/I:P/A:N"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-26555"
+          },
+          "score" : 5.4,
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "created" : "2025-11-05T20:31:54Z",
+      "updated" : "2025-11-04T20:15:00Z",
+      "affects" : [
+        {
+          "ref" : "urn:cdx:0fd05fd7-8cc6-4e38-b276-adcf779b94d8/1#bluetooth-core-spec"
+        }
+      ]
+    },
+    {
+      "id" : "CVE-2021-31615",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2021-31615"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/vuln/detail/CVE-2021-31615"
+          },
+          "score" : 2.9,
+          "method" : "CVSSv2",
+          "vector" : "AV:A/AC:M/Au:N/C:N/I:N/A:P"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/vuln/detail/CVE-2021-31615"
+          },
+          "score" : 5.3,
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "created" : "2024-12-05T18:53:05Z",
+      "updated" : "2024-11-21T06:06:00Z",
+      "affects" : [
+        {
+          "ref" : "urn:cdx:0fd05fd7-8cc6-4e38-b276-adcf779b94d8/1#bluetooth-core-spec"
+        }
+      ]
+    },
+    {
+      "id" : "CVE-2022-24695",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2022-24695"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/vuln/detail/CVE-2022-24695"
+          },
+          "score" : 4.3,
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+        }
+      ],
+      "created" : "2025-09-02T23:22:08Z",
+      "updated" : "2025-01-10T19:15:00Z",
+      "affects" : [
+        {
+          "ref" : "urn:cdx:0fd05fd7-8cc6-4e38-b276-adcf779b94d8/1#bluetooth-core-spec"
+        }
+      ]
+    },
+    {
+      "id" : "CVE-2020-35473",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-35473"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-35473"
+          },
+          "score" : 4.3,
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+        }
+      ],
+      "created" : "2025-09-02T22:10:22Z",
+      "updated" : "2025-05-01T18:15:00Z",
+      "affects" : [
+        {
+          "ref" : "urn:cdx:0fd05fd7-8cc6-4e38-b276-adcf779b94d8/1#bluetooth-core-spec"
+        }
+      ]
+    },
+    {
+      "id" : "CVE-2020-26558",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-26558"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-26558"
+          },
+          "score" : 4.3,
+          "method" : "CVSSv2",
+          "vector" : "AV:A/AC:M/Au:N/C:P/I:P/A:N"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-26558"
+          },
+          "score" : 4.2,
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "created" : "2025-11-05T20:31:54Z",
+      "updated" : "2025-11-04T20:15:00Z",
+      "affects" : [
+        {
+          "ref" : "urn:cdx:0fd05fd7-8cc6-4e38-b276-adcf779b94d8/1#bluetooth-core-spec"
+        }
+      ]
+    }
+  ]
+}
